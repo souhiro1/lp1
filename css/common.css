@@ -41,6 +41,7 @@ li {
   text-align: center;
   font-size: 12px;
   font-weight: 700;
+  color: #fff;
 }
 
 .header_nav ul li a:hover {
@@ -178,11 +179,11 @@ li {
 
 .frame {
   display: inline-block;
-  width: 80%;
+  width: auto;
   height: 100%;
   background-color: #fff;
   border-radius: 5px;
-  margin: 15px;
+  margin: 30px;
   padding: 20px;
 }
 
@@ -221,7 +222,6 @@ li {
 
 .price {
   font-size: 17px;
-  text-align: center;
   color: #803333;
   padding-top: 15px;
 }
@@ -237,9 +237,14 @@ li {
   font-size: 45px;
 }
 
+.frame-box {
+  display: flex;
+  justify-content: center;
+}
+
 .frame_profile {
   display: inline-table;
-  width: 37%;
+  width: 35%;
   height: 100%;
   background-color: #eee;
   border-radius: 5px;
@@ -286,13 +291,21 @@ li {
   padding-left: 10px;
 }
 
+.blog_block_layout {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
 .blog_block {
   display: inline-table;
-  margin: 0 auto;
+  margin: 5px;
+  
 }
 
 .blog_body {
   margin-top: 10px;
+  margin: 0 auto;
 }
 
 .blog_body h3 {
