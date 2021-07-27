@@ -28,6 +28,10 @@ li {
   padding: 0 20px;
 }
 
+.header_nav {
+  height: 50px;
+}
+
 .header_nav ul {
   width: 100%;
   display: flex;
@@ -243,7 +247,7 @@ li {
 }
 
 .frame_profile {
-  display: inline-table;
+  display: flexbox;
   width: 35%;
   height: 100%;
   background-color: #eee;
